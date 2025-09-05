@@ -41,10 +41,10 @@ module.exports.run = async function ({ api, event }) {
 `;
 
   const images = [
-    "https://imgur.com/a/DyUfhtz",
-    "https://imgur.com/a/L2HybF6",
-    "https://imgur.com/a/DyUfhtz",
-    "https://imgur.com/a/L2HybF6"
+    "https://imgur.com/gallery/hah-DyUfhtz",
+    "https://imgur.com/gallery/huh-L2HybF6",
+    "",
+    ""
   ];
 
   const randomImg = images[Math.floor(Math.random() * images.length)];
