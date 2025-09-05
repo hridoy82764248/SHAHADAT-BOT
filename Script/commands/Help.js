@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: Hridoy Hossen
+┃ 👑 Owner: Hridoy
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -41,6 +41,11 @@ module.exports.languages = {
     }
 };
 
+// এখানে আপনার ফোটো Imgur লিংক করে বসাবেন✅
+
+const helpImages = [
+    "https://i.imgur.com/sxSn1K3.jpeg",
+];
 
 function downloadImages(callback) {
     let files = [];
@@ -140,7 +145,7 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "Kaguya Otsutsuki "}
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "Kaguya Otsutsuki"}
 ┃ 👑 Owner: Hridoy Hossen
 ╰━━━━━━━━━━━━━━━━╯`;
 
