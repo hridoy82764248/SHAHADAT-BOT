@@ -18,7 +18,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event }) {
- const imageUrl = "https://www.facebook.com/share/p/1FS3VaW27c/";
+ const imageUrl = "https://www.facebook.com/profile.php?id=100001162111551";
  const path = __dirname + "/cache/owner.png";
 
  request(imageUrl)
@@ -40,7 +40,7 @@ module.exports.run = async function ({ api, event }) {
 🎵 𝗧𝗶𝗸𝗧𝗼𝗸: সরি আমি প্রতিবন্ধী না🥱
 👻 𝗦𝗻𝗮𝗽𝗰𝗵𝗮𝘁: তোদের মতো কালা নাকি ফিল্টার লাগামু🤭
 
-🤖 𝗕𝗢𝗧 𝗕𝗬: ─ Hriroy 
+🤖 𝗕𝗢𝗧 𝗕𝗬: ─꯭Kaguya Otsutsuki 
 `,
  attachment: fs.createReadStream(path)
  }, event.threadID, () => fs.unlinkSync(path));
