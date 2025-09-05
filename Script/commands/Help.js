@@ -44,7 +44,10 @@ module.exports.languages = {
 // এখানে আপনার ফোটো Imgur লিংক করে বসাবেন✅
 
 const helpImages = [
-    
+    "https://i.imgur.com/sxSn1K3.jpeg",
+    "https://i.imgur.com/8WvpgUL.jpeg",
+    "https://i.imgur.com/8WvpgUL.jpeg",
+    "https://i.imgur.com/sxSn1K3.jpeg"
 ];
 
 function downloadImages(callback) {
@@ -145,8 +148,8 @@ module.exports.run = function ({ api, event, args, getText }) {
 ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
-┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐖𝐇𝐈𝐄 𝐃𝐀𝐕𝐈𝐋"}
-┃ 👑 Owner: 𝐇𝐑𝐈𝐃𝐎𝐘
+┃ 🤖 Bot Name: ${global.config.BOTNAME || "𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭"}
+┃ 👑 Owner: 𝐒𝐇𝐀𝐇𝐀𝐃𝐀𝐓 𝐒𝐀𝐇𝐔
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
