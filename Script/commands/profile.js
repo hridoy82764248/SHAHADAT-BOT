@@ -39,6 +39,7 @@ module.exports.run = async function({ event, api, args }) {
 ║ m.me/${uid}
 ║ 🌐 𝐅𝐁 𝐏𝐫𝐨𝐟𝐢𝐥𝐞 : 
 ║ fb.com/${uid}
+║ ʙᴏᴛ ᴏᴡɴᴇʀ:ʜʀɪᴅᴏʏ
 ╚══════════❖🌺❖══════════╝`,
  attachment: fs.createReadStream(path)
  };
