@@ -44,7 +44,10 @@ module.exports.languages = {
 // এখানে আপনার ফোটো Imgur লিংক করে বসাবেন✅
 
 const helpImages = [
-    "https://imgur.com/gallery/huh-L2HybF6"
+    "https://i.imgur.com/sxSn1K3.jpeg",
+    "https://i.imgur.com/8WvpgUL.jpeg",
+    "https://i.imgur.com/8WvpgUL.jpeg",
+    "https://i.imgur.com/sxSn1K3.jpeg"
 ];
 
 function downloadImages(callback) {
@@ -146,7 +149,7 @@ ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
 ┃ 🤖 Bot Name: ${global.config.BOTNAME || "Kaguya Otsutsuki "}
-┃ 👑 Owner: Hridoy Hossen
+┃ 👑 Owner: Jridoy Hossen
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
