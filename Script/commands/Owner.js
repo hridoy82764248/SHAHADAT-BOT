@@ -41,8 +41,8 @@ module.exports.run = async function ({ api, event }) {
 `;
 
   const images = [
-    "https://imgur.com/gallery/hah-DyUfhtz",
-    "https://imgur.com/gallery/huh-L2HybF6",
+    "Hah https://imgur.com/gallery/DyUfhtz",
+    "https://imgur.com/gallery/DyUfhtz",
     "",
     ""
   ];
