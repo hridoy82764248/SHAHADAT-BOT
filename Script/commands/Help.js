@@ -32,7 +32,7 @@ module.exports.languages = {
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: %8
 ┃ 🤖 Bot Name: %9
-┃ 👑 Owner: Hridoy
+┃ 👑 Owner: Hridoy Hossen
 ╰━━━━━━━━━━━━━━━━╯`,
         "helpList": "[ There are %1 commands. Use: \"%2help commandName\" to view more. ]",
         "user": "User",
@@ -44,7 +44,10 @@ module.exports.languages = {
 // এখানে আপনার ফোটো Imgur লিংক করে বসাবেন✅
 
 const helpImages = [
-    "https://imgur.com/a/90AfvZF.jpeg",
+    "https://i.imgur.com/Rs33m7C.jpeg",
+    "https://i.imgur.com/0IKTM64.jpeg",
+    "https://i.imgur.com/DG6YXNl.jpeg",
+    "https://i.imgur.com/Rs33m7C.jpeg"
 ];
 
 function downloadImages(callback) {
