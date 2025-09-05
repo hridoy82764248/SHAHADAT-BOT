@@ -36,15 +36,15 @@ module.exports.run = async function ({ api, event }) {
 ║ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
 ║ wa.me/01744954836
 ║ ✈️ 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 :
-║ Dutam na vagg
+║ Ditam na vagg
 ╚═════════════════════ ✿
 `;
 
   const images = [
-    "https://i.imgur.com/8WBso8x.png",
-    "https://i.imgur.com/0VZu5eY.png",
-    "https://i.imgur.com/bkixgPK.jpeg",
-    "https://i.imgur.com/z6G6L4c.jpeg"
+    "https://imgur.com/a/DyUfhtz",
+    "https://imgur.com/a/L2HybF6",
+    "https://imgur.com/a/DyUfhtz",
+    "https://imgur.com/a/L2HybF6"
   ];
 
   const randomImg = images[Math.floor(Math.random() * images.length)];
