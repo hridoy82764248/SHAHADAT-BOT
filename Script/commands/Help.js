@@ -147,7 +147,7 @@ ${msg}
 ┣━━━━━━━━━━━━━━━━┫
 ┃ ⚙ Prefix: ${prefix}
 ┃ 🤖 Bot Name: ${global.config.BOTNAME || "Kaguya Otsutsuki "}
-┃ 👑 Owner: Jridoy Hossen
+┃ 👑 Owner: Hridoy Hossen
 ╰━━━━━━━━━━━━━━━━╯`;
 
     downloadImages(files => {  
