@@ -18,7 +18,7 @@ module.exports.config = {
 };
 
 module.exports.run = async function ({ api, event }) {
- const imageUrl = "https://www.facebook.com/100048786044500/posts/1311749910461198/?substory_index=640255962440759&app=fbl";
+ const imageUrl = "https://www.facebook.com/share/p/1FS3VaW27c/";
  const path = __dirname + "/cache/owner.png";
 
  request(imageUrl)
