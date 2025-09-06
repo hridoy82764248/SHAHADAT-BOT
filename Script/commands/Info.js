@@ -34,7 +34,7 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 
  const msg = `╭⭓ ⪩ 𝐁𝐎𝐓𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 ⪨
 │
-├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : Kaguya Otsutsuki 
+├─ 🤖 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ─꯭─⃝‌KAGUYA OTSUTSUKI 
 ├─ ☢️ 𝗣𝗿𝗲𝗳𝗶𝘅 : ${config.PREFIX}
 ├─ ♻️ 𝗣𝗿𝗲𝗳𝗶𝘅 𝗕𝗼𝘅 : ${prefix}
 ├─ 🔶 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 : ${commands.size}
@@ -44,11 +44,11 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 
 ╭⭓ ⪩ 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢 ⪨
 │
-├─ 👑 𝗡𝗮𝗺𝗲 : 𝐇𝐑𝐈𝐃𝐎𝐘 𝐇𝐎𝐒𝐒𝐄𝐍
-├─ 📲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :
-│ https://www.facebook.com/DukkhoBilash8276
+├─ 👑 𝗡𝗮𝗺𝗲 : 
+├─ 📲 𝗙𝗮𝗰𝗲𝗯𝗼𝗼𝗸 :𝗛𝗿𝗶𝗱𝗼𝘆 𝗛𝗼𝘀𝘀𝗲𝗻
+│ facebook.com/100048786044500
 ├─ 💌 𝗠𝗲𝘀𝘀𝗲𝗻𝗴𝗲𝗿 :
-│ m.me/100001162111551
+│ m.me/100048786044500
 ├─ 📞 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 :
 │ wa.me/+8801744954836
 │
@@ -62,13 +62,10 @@ module.exports.run = async function ({ api, event, args, Users, Threads }) {
 ╰───────⭓
 
 ❤️ 𝗧𝗵𝗮𝗻𝗸𝘀 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 🌺
- 😍White Davil😘`;
+ 😍─꯭─⃝‌𝗪𝗛𝗜𝗧𝗘 𝗗𝗔𝗩𝗜𝗟😘`;
 
  const imgLinks = [
- "https://imgur.com/a/L2HybF6",
- "https://imgur.com/a/DyUfhtz",
- "https://imgur.com/a/L2HybF6",
- "https://imgur.com/a/DyUfhtz"
+ "https://i.imgur.com/0IKTM64.jpeg"
  ];
 
  const imgLink = imgLinks[Math.floor(Math.random() * imgLinks.length)];
